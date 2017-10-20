@@ -5,3 +5,7 @@ git add project/filename
 git commit -m 'comment'
 git push origin master
 ```
+
+- git学習カリキュラムにて更新
+- _イタリック_
+- ~打消し線~
