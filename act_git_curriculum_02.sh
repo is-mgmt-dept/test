@@ -7,6 +7,8 @@ cd /c/pull_test
 git clone https://github.com/is-mgmt-dept/test.git
 # クローンしたリポジトリに移動
 cd /c/pull_test/test
+git checkout -b feature_test
+git pull
 # ダミーのユーザ名とユーザメールアドレスを設定
 git config user.name "is-mgmt-dept"
 git config user.email ""
@@ -17,5 +19,6 @@ echo -e "\n私の名前は`whoami`\n" >> README.md
 git add README.md
 git commit -m "gitカリキュラム pull用コミット"
 git push origin master
+git checkout master
 # ディレクトリを削除
 rm -rf /c/pull_test
